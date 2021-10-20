@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        border: 10px solid black;
+    }
+
+    div:first-child{box-sizing: content-box; background-color: red;} 
+    /* content-box: 기본값,  width, height 값을 주면 border와 padding을 제외한 값이 넓이가 됨*/
+
+    div:last-child{box-sizing: border-box; background-color: orange;}
+    /* 입력된  width, height 값과 border와 padding을 포함하여 넓이가됨 */
+
+</style>
+<body>
+    <div></div>
+    <div></div>
+    
+</body>
+</html>

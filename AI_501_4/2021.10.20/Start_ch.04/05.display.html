@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        border: 1px solid black;
+    }
+    #box {
+        display: none; /* visibility: hidden; */
+    }
+    .box2,p {
+        display: inline;
+    }
+    .box3, .box3,p {
+        display: inline-block;
+    }
+
+</style>
+
+<body>
+
+    <div id="box">
+        <p>애는 안보임</p>
+    </div>
+
+    <div class="box2">
+        <p>display가 inline이라서 내가 쓴 만큼만 보임</p>
+    </div>
+
+    <div class="box2">
+        <p>display가 inline이라서 내가 쓴 만큼만 보임</p>
+    </div>
+
+    <div class="box3">
+        <p>display가 inline-block</p>
+    </div>
+    <div class="box3">
+        <p>display가 inline-block</p>
+    </div>
+
+    <div class="box3">
+        <p>display가 inline-block</p>
+    </div>
+
+    <div id="box4">
+        <p>아무것도 안함</p>
+    </div>
+</body>
+</html>
