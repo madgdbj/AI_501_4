@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #one {
+        color: tomato;
+    }
+
+    #one_p {
+        color: skyblue;
+    }
+
+    /* 아이디가 one 혹은 one_p인 경우 or */
+    #one,#one_p {
+        background-color: lemonchiffon;
+    }
+
+    #two {
+        color: crimson;
+    }
+
+    #two_p {
+        color: cyan;
+    }
+
+    /* 아이디가 two면서 h1인경우 and */
+    h1#two {
+        background-color: mediumseagreen;
+    }
+
+</style>
+<body>
+    <h1 id="one">안녕</h1>
+    <p id="one_p">안녕</p>
+
+    <h1 id="two">반가워</h1>
+    <p id="two_p">방가워</p>
+</body>
+</html>

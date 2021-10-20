@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    input{
+        display: none;
+    }
+
+    input[type=checkbox]:checked+div{
+        height: 0px;;
+    }
+
+    div {
+        overflow: hidden;
+        width: 650px;
+        height: 300px;
+        transition-duration: 1s;
+    }
+  
+</style>
+<body>
+
+    <h1><label for="myinput">선택</label></h1>
+
+    <input type="checkbox" id="myinput">
+    
+    <div>
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quibusdam veniam corrupti odio nam corporis hic dolore suscipit et labore, earum nisi iure reprehenderit velit nihil quo, quos repellat. Minus totam temporibus dolor vero est obcaecati ex minima quae asperiores, pariatur voluptas, perspiciatis suscipit? Distinctio incidunt reprehenderit excepturi amet error!</p>
+    </div>
+</body>
+</html>
